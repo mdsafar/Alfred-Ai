@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+fieldset {
+  border: none !important;
+}
+
+body {
+  color: white !important;
+  background-color: #222831 !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.nav_item>a {
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 10px;
+}
+
+
+.nav_item svg {
+  display: none;
+  margin-right: 12px;
+}
+
+.nav_item:hover {
+  background-color: #222831;
+}
+
+.nav_item:hover svg {
+  display: inline;
+  cursor: pointer;
+}
+
+.nav_item>.active {
+  background-color: #222831;
+}
+
+.drawer_item>a {
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drawer_item>.active {
+  background-color: #222831;
+}
+
+.drawer_item svg {
+  display: none;
+  margin-right: 10px;
+}
+
+.drawer_item>.active svg {
+  display: block;
+}
+
+
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 400px;
+  height: 180px;
+  box-shadow: none !important;
+  border-radius: 15px !important;
+  background-color: #222831 !important;
+}
+
+.scroll_bottom {
+  height: 100%;
+  overflow: scroll;
+  padding: 6px 0 14px;
+}
+
+.spin>div>span i {
+  background-color: white !important;
+}
+
+.ant-popover {
+  inset: auto auto 68px 18px !important;
+}
+
+.ant-popover .ant-popover-inner{
+  background-color: #222831 !important ;
+  width: 220px !important;
+  padding: 6px !important;
+  color: white !important;
+}
